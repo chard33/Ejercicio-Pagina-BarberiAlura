@@ -1,0 +1,112 @@
+header {
+
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja {
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+nav li {
+
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+
+    text-decoration: overline;
+    color: #c78c19;
+}
+
+.productos {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    user-select: none;
+}
+
+.productos li {
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.productos li:hover {
+
+    border: 3px solid #c78c19;
+}
+
+.productos li:hover h2{
+
+    font-size: 33px;
+}
+
+.productos li:active {
+
+    border: 3px solid darkgreen;
+}
+
+.productos h2 {
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.productoDescripcion{
+
+    font-size: 18px;
+}
+
+.productoPrecio{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+
+    text-align: center;
+    background-image: url("../recursos/imagenes/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyRight{
+
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+
+
